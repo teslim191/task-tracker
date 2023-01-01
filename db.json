@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Visit the gym",
+      "day": "25th of November 2022",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Go to the restaurant",
+      "day": "21st December 2022",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Go to the pool",
+      "day": "27st December 2022",
+      "reminder": true
+    },
+    {
+      "text": "watch naruto from ep36",
+      "day": "31st December 2022",
+      "reminder": true,
+      "id": 4
+    }
+  ]
+}

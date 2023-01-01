@@ -1,0 +1,5 @@
+<app-add-task (onAddTask)="addTask($event)" ></app-add-task>
+<div (dblclick)="toggleReminder(task)" [ngClass]="{reminder: task.reminder}" class="task" *ngFor="let task of tasks">
+    <h3>{{task.text}} <fa-icon (click)="onDelete(task)"  [ngStyle]="{'color':'red'}" [icon]="faTimes"></fa-icon></h3>
+    <h4>{{task.day}}</h4>
+</div>
